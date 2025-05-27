@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Grocery List</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<h1>Grocery List</h1>
+
+<div class="container">
+    <input type="text" id="itemInput" placeholder="Add a grocery item" />
+    <button id="addItem">Add Item</button>
+
+
+<div id="filterSection">
+    <label><input type="radio" name="filter" value="all" checked />All</label>
+    <label><input type="radio" name="filter" value="bought"/>Bought</label>
+    <label><input type="radio" name="filter" value="unbought"/>Unbought</label>
+</div>
+
+<ul id="groceryList"></ul>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

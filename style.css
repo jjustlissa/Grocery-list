@@ -1,0 +1,105 @@
+body {
+    background-color: rgb(255, 248, 186);
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 1;
+    border-radius: 6px;
+    background-color: rgb(255, 190, 117);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid #000000;
+  width: 22px;
+  height: 22px;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+  vertical-align: middle;
+
+
+}
+
+input[type="checkbox"]:checked::after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: -3.5px;
+  width: 5px;
+  height: 16px;
+  border: solid rgb(0, 204, 0);
+  border-width: 0 4px 4px 0;
+  transform: rotate(45deg);
+}
+.deleteBtn {
+    margin-left: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #000000;
+    top: 2.5px;
+    width: 70px;
+    height: 22px;
+    border-radius: 4px;
+    position: relative;
+    cursor: pointer;
+
+    color: #000000;
+    font-size: medium;
+    font-family: Arial, sans-serif;
+}
+
+#itemInput {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #000000;
+    width: 230px;
+    height: 30px;
+    border-radius: 3px;
+    padding: 5px 10px;
+    box-sizing: border-box;  
+    font-size: medium;
+}
+
+#addItem {
+    margin-left: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #000000;
+    top: 0px;
+    width: 90px;
+    height: 30px;
+    border-radius: 4px;
+    position: relative;
+    cursor: pointer;
+
+    color: #000000;
+    font-size: medium;
+    font-family: Arial, sans-serif;
+}
+
+li {
+    color: #000000;
+    font-size: medium;
+    font-family: Arial, sans-serif;
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+#filterSection {
+    color: #000000;
+    font-size: medium;
+    font-family: Arial, sans-serif;
+}
+
+body, ul {
+  margin: 0;
+  padding: 0;
+    margin-top: 20px;
+}
+
+.container {
+  padding-left: 0;
+  margin-left: 0;
+}
+
